@@ -49,7 +49,7 @@ jobs:
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v4
         with:
-          role-to-assume: arn:aws:iam::057079472215:role/gitact
+          role-to-assume: ${{ secrets.AWS_ROLE_ARN }}
           aws-region: ap-south-1
           audience: sts.amazonaws.com
 
