@@ -86,17 +86,17 @@ flowchart LR
 
     G --> K[Health Check]
 
-    style A fill:#f5f5f5
-    style B fill:#f5f5f5
-    style C fill:#f5f5f5
-    style D fill:#f5f5f5
-    style E fill:#f5f5f5
-    style F fill:#f5f5f5
-    style G fill:#f5f5f5
-    style H fill:#f5f5f5
-    style I fill:#f5f5f5
-    style J fill:#f5f5f5
-    style K fill:#f5f5f5
+    style A fill:#333333
+    style B fill:#333333
+    style C fill:#333333
+    style D fill:#333333
+    style E fill:#333333
+    style F fill:#333333
+    style G fill:#333333
+    style H fill:#333333
+    style I fill:#333333
+    style J fill:#333333
+    style K fill:#333333
 ```
 
 > The `style` lines are optional. GitHub's Mermaid renderer may display the diagram without custom styling.
