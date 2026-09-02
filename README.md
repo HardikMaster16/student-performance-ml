@@ -485,7 +485,7 @@ The pipeline uses **OIDC (OpenID Connect)** rather than storing long-lived AWS a
 The GitHub Actions IAM role is:
 
 ```text
-arn:aws:iam::<AWS_ACCOUNT_ID>:role/gitact
+arn:aws:iam::<AWS_ACCOUNT_ID>:role/<GITHUB_ACTIONS_ROLE>
 ```
 
 The trust policy restricts access to the project repository and branch.
@@ -835,7 +835,7 @@ This follows the principle of using IAM roles and temporary credentials instead 
 ## 1. Clone the Repository
 
 ```bash
-git clone https://github.com/HardikMaster16/student-performance-ml.git
+git clone https://github.com/your-username/student-performance-ml.git
 cd student-performance-ml
 ```
 
@@ -1082,14 +1082,13 @@ Possible next improvements include:
 
 # Author
 
-**Hardik Master**
+**Project Author**
 
 BSc IT — Artificial Intelligence & Machine Learning
 
-GitHub: `HardikMaster16`
+GitHub: `your-username`
 
 Repository: `student-performance-ml`
-
 ---
 
 ## License
